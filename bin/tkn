@@ -286,7 +286,7 @@ loop do
   else
     render(slide).each_char do |c|
       print c
-      sleep 0.002 # old-school touch: running cursor
+      sleep 0.001 # old-school touch: running cursor
     end
   end
 
